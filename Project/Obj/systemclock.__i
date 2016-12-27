@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\List\\" -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\User -I..\BaseDrive 
+-I d:\Keil\ARM\RV31\INC 
+-I d:\Keil\ARM\CMSIS\Include 
+-I d:\Keil\ARM\Inc\ST\STM32F10x 
+-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\Obj\systemclock.o" --list_dir ".\\List\\" --list --omf_browse ".\Obj\systemclock.crf" --depend ".\Obj\systemclock.d" "..\BaseDrive\SystemClock.c"
